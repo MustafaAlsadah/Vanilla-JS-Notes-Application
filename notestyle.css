@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    min-height: 100vh;
+}
+html, body{
+    width: 1440px;
+    background-color: #B9DDFF;
+}
+
+#headline-strip {
+    background-image: url("./icons/Rectangle 1.svg");
+    text-align: center;
+    font-family: cairo;
+    padding: 16px;
+    margin: 22px;
+    color: white;
+    font-family: Cairo;
+    background-repeat: no-repeat;
+}
+
+note-card {
+    background-repeat: no-repeat;
+    height: 310px;
+    margin: 63px;
+    display: inline-block;
+    background-image: url("./icons/Group 3.svg");
+    width: 257px;
+}
+
+note-card textarea {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    width: 91%;
+    height: 224px;
+    position: relative;
+    right: -8px;
+    top: 6px;
+    overflow-wrap: break-word;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    border-radius: 18px;
+    border-width: 0px;
+    background: transparent;
+    resize: none;
+}
+
+#submit-edits {
+    background-image: url("./icons/ConfirmEdits.svg");
+    width: 173px;
+    height: 58px;
+    border: 0px transparent;
+    background-color: transparent;
+    right: -9px;
+    position: relative;
+    top: 14px;
+}
+
+note-card p{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    width: 95%;
+    height: 62%;
+    position: relative;
+    right: -8px;
+    top: 6px;
+    overflow-wrap: break-word;
+    overflow-y: auto;
+    scrollbar-width: thin;
+}
+
+.Operation-Box {
+    background-image: url("./icons/OperationBox.svg");
+    height: 179px;
+    background-repeat: no-repeat;
+    width: 709px;
+    position: relative;
+    right: -25%;
+    top: 34px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+#addNotesForm textarea{
+    width: 514px;
+    height: 163px;
+    position: relative;
+    right: -4px;
+    top: 3px;
+    border-radius: 38px;
+    border-color: #4FCAFF;
+    border: 1px solid #4FCAFF;
+    background-color: transparent;
+    border-width: 2px;
+    text-align: center;
+    color: white;
+    font-family: Nunito;
+    font-size: 24px;
+    resize: none;
+    grid-area: 1/1/3/1;
+}
+
+#notesBoard {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    position: relative;
+    right: 9px;
+    top: 78px;
+}
+
+.editNoteBtn {
+    background-image: url("./icons/EditBtn.svg");
+    background-size: 17px;
+    background-repeat: no-repeat;
+    padding: 8px;
+    background-color: transparent;
+    border-width: 0px;
+    position: relative;
+    top: 4px;
+    right: -178px;
+}
+
+.editNoteBtn:hover {
+    background-image: url("./icons/EditBtnOnHover.svg");
+    background-size: 17px;
+    background-repeat: no-repeat;
+    padding: 8px;
+    background-color: transparent;
+    border-width: 0px;
+    position: relative;
+    top: 4px;
+    right: -178px;
+}
+
+.deleteNoteBtn {
+    background-image: url("./icons/DeleteBtn.svg");
+    background-size: 22px;
+    background-repeat: no-repeat;
+    padding: 8px;
+    background-color: transparent;
+    border-width: 0px;
+    position: relative;
+    top: 2px;
+    right: -219px;
+}
+
+.deleteNoteBtn:hover {
+    background-image: url("./icons/deleteBtnOnHover.svg");
+    background-size: 22px;
+    background-repeat: no-repeat;
+    padding: 8px;
+    background-color: transparent;
+    border-width: 0px;
+    position: relative;
+    top: 2px;
+    right: -219px;
+}
+
+#add-note-btn {
+    background-image: url("./icons/addBtn.svg");
+    position: relative;
+    width: 79px;
+    height: 79px;
+    background-color: transparent;
+    border: 0px;
+    grid-area: 1/1/2/2;
+}
+
+#add-note-btn:hover {
+    background-image: url("./icons/addBtnOnHover.svg");
+    position: relative;
+    width: 79px;
+    height: 79px;
+    background-color: transparent;
+    border: 0px;
+    grid-area: 1/1/2/2;
+}
+
+#clearBtn{
+    background-image: url("./icons/DeleteAllBtn.svg");
+    position: relative;
+    width: 79px;
+    height: 79px;
+    background-color: transparent;
+    border: 0px;
+    grid-area: 2/1/3/2;
+}
+
+#clearBtn:hover{
+    background-image: url("./icons/DeleteAllBtnOnHover.svg");
+    position: relative;
+    width: 79px;
+    height: 79px;
+    background-color: transparent;
+    border: 0px;
+    grid-area: 2/1/3/2;
+}
+
+#reverseBtn{
+    background-image: url("./icons/ReverseBtn.svg");
+    position: relative;
+    width: 79px;
+    height: 79px;
+    background-color: transparent;
+    border: 0px;
+    grid-area: 1/2/2/3;
+}
+
+#reverseBtn:hover{
+    background-image: url("./icons/ReverseBtnOnHover.svg");
+    position: relative;
+    width: 79px;
+    height: 79px;
+    background-color: transparent;
+    border: 0px;
+    grid-area: 1/2/2/3;
+}
+
+#to-hide{
+    background-image: url("./icons/hideBtn.svg");
+    position: relative;
+    width: 79px;
+    height: 79px;
+    background-color: transparent;
+    border: 0px;
+    grid-area: 2/2/3/3;
+}
+#to-hide:hover{
+    background-image: url("./icons/hideBtnOnHover.svg");
+    position: relative;
+    width: 79px;
+    height: 79px;
+    background-color: transparent;
+    border: 0px;
+    grid-area: 2/2/3/3;
+}
+
+#wholeForm {
+    position: relative;
+    right: -2vw;
+}
+
+.Operation-Box-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    grid-gap: 3px;
+    left: 14px;
+    position: relative;
+    top: 7px;
+}

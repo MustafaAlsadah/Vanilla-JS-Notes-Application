@@ -8,6 +8,7 @@ document.addEventListener("submit", (event)=>{
     if (target && target.id == ("addNotesForm")){
         addNote(target);
     }
+    location.reload();
 });
 
 document.addEventListener("click", (event)=>{

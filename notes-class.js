@@ -1,5 +1,5 @@
 class Notes{
-    dbVersion = 1;
+    dbVersion = 2;
     dbName = 'myDB';
     reverseOrder = false;
 

@@ -1,6 +1,11 @@
 window.onload = getAllFromDB;
 const NOTES_OBJECT = new Notes();
-id = 0;
+if (parseInt(localStorage.getItem(0))>0){
+    id = parseInt(localStorage.getItem(0));
+}else {
+    localStorage.setItem(0,0);
+    id = parseInt(localStorage.getItem(0));
+}
 
 document.addEventListener("submit", (event)=>{
     event.preventDefault();
@@ -8,6 +13,7 @@ document.addEventListener("submit", (event)=>{
     if (target && target.id == ("addNotesForm")){
         addNote(target, id);
         id++;
+        localStorage.setItem(0, id);
     }
 });
 

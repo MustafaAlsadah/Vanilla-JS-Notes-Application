@@ -1,0 +1,17 @@
+body {
+  min-height: 100vh;
+}
+
+html, body {
+  width: 1440px;
+}
+
+button {
+  cursor: pointer;
+}
+
+html, body {
+  background-color: #B9DDFF;
+}
+
+/*# sourceMappingURL=main.css.map */

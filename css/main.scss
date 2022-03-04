@@ -1,0 +1,9 @@
+//Importing global rules
+@use "sass/layout/global-rules";
+
+//Import colors
+@use "variables/colors";
+
+html, body{
+  background-color: colors.$my-sky-blue;
+}

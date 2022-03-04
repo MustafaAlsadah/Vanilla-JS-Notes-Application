@@ -246,3 +246,21 @@ note-card p{
     top: 7px;
 }
 
+.center-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:focus{
+    outline: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+    html, body{
+        width: 100vw;
+    }
+    #notesBoard{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

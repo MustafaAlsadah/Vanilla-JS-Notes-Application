@@ -256,11 +256,18 @@ button:focus{
     outline: none;
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px){
+@media screen and (max-width: 414px){
     html, body{
         width: 100vw;
     }
     #notesBoard{
         grid-template-columns: repeat(2, 1fr);
+        right: 21px;
+    }
+    .Operation-Box{
+        right: 0%;
+    }
+    #headline-strip{
+        width: 637px;
     }
 }

@@ -256,6 +256,10 @@ button:focus{
     outline: none;
 }
 
+.test{
+    visibility: hidden;
+}
+
 @media screen and (max-width: 414px){
     html, body{
         width: 100vw;
@@ -268,6 +272,26 @@ button:focus{
         right: 0%;
     }
     #headline-strip{
-        width: 637px;
+        display: none;
     }
+    .test {
+        visibility: visible;
+        padding: 28px;
+        background-color: #7abfff;
+        width: 127vw;
+        position: relative;
+        right: -63px;
+        top: 16px;
+        border-radius: 23px;
+        z-index: 3;
+        height: 10px;
+        text-align: center;
+        font-family: cairo;
+        color: white;
+    }
+    .test > h2 {
+        top: -37px;
+        position: relative;
+    }
+    
 }
